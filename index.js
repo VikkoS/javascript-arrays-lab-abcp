@@ -25,3 +25,7 @@ function appendKitten(newName) {
   return newKittensArray;
 }
 
+function appendKitten(newName) {
+  var newKittensArray = [...kittens, newName];
+  return newKittensArray;
+}
